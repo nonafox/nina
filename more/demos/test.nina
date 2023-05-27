@@ -1,0 +1,6 @@
+var s = time_now();
+var i = - 1;
+while ((i = i + 1) < 100000000) {
+    //random_raw();
+}
+console_printf('time: ' + (time_now() - s) + ' s');
